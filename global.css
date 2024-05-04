@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+body {
+    background-color: #333333; /* Deep Charcoal */
+    height: 100vh;
+    font-family: 'Fira Code', monospace;
+    color: #ffffff; /* White */
+}
+
+button {
+    background-color: #ff6600;
+    color: #ffffff;
+    text-decoration: none;
+    font: inherit;
+    border-radius: 0;
+    border: none; /* Remove button outline */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:hover {
+    background-color: #994000;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
