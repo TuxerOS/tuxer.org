@@ -16,7 +16,7 @@
     <meta name="theme-color" content="#FF6600">
 </head>
 <body>
-    <!-- Header Start -->
+  <!-- Header Start -->
   <header>
     <div class="container">
         <h1 class="title">Tuxer</h1>
@@ -28,7 +28,7 @@
               <li><button onclick="window.location.href='../contact'">Contact</button></li>
               <li><button onclick="alert('Not implemented')">Credits</button></li>
               <li><button onclick="alert('Not implemented')">My Page</button></li>
-              <li><button onclick="alert('Not implemented')">Social Media</button></li>
+              <li><button onclick="window.location.href='../sm'">Social Media</button></li>
             </ul>
         </nav>
     </div>
@@ -39,18 +39,20 @@
       <h2>TuxerOS</h2>
       <p>TuxerOS is a simple Operating System written in C17 and NASM Assembly. I use the limine bootloader. The current features include:
         <ul>
-          <li>Text Mode</li>
+          <li>Framebuffer Terminal</li>
           <li>Interrupt System</li>
           <li>A simple Driver Model</li>
+          <li>RTC</li>
+          <li>Serial Interface</li>
         </ul>
         And here is what I am planning to implement next:
         <ul>
           <li>PMM & VMM & Heap</li>
           <li>FAT32 or Ext2 Filesystem</li>
-          <li>RTC</li>
           <li>PCI</li>
           <li>ACPI</li>
-          <li>Serial Interface + USB in general</li>
+          <li>USB</li>
+          <li>TTY's</li>
         </ul>
         If you wan't to create your own OS check out <a href="https://www.youtube.com/playlist?list=PLFjM7v6KGMpiH2G-kT781ByCNC_0pKpPN">Nanobyte's Tutorial</a>. It got me started with OS Development. And I am stilled 
         amazed by how good he is at explaining things. I also recommend the <a href="https://wiki.osdev.org/Categorized_Main_Page">OSDev Wiki</a> for more some other topics That

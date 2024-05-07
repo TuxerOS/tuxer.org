@@ -47,6 +47,10 @@ a:hover {
     cursor: default;
 }
 
+a:active {
+    color: #ff6600;
+}
+
 /* P&P's */
 
 p {
