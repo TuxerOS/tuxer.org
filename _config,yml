@@ -1,0 +1,11 @@
+title: Tuxer Website
+description: This is the offical Tuxer Software Website
+theme: minima
+
+# Optional configuration for minima theme to enable dark mode
+minima:
+  skin: dark
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
